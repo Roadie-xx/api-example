@@ -14,6 +14,20 @@ use RoadieXX\RestApi;
 
 $database = new Database();
 // var_dump($database->run('SHOW TABLES'));
-$api = new RestApi('authors', $database);
 
-$api->execute();
+$segments = explode('/', $_SERVER['REQUEST_URI']);
+
+// echo '<pre>';
+// var_dump($_GET);
+// var_dump($segments);
+// echo '</pre>';
+
+if (isset($segments[1])) {
+    $api = new RestApi($segments[1], $database);
+    $id = $segments[2] ?? null;
+
+    $api->execute($id);
+} else {
+    // Show documentation
+    echo 'Did you forget to specify what table ?';
+}

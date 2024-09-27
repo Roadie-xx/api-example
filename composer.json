@@ -1,0 +1,24 @@
+{
+    "name": "roadie-xx/api-example",
+    "description": "Just an API example.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robby van Zweeden"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RoadieXX\\": "src",
+            "Test\\RoadieXX\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*",
+        "roadie-xx/dotenv": "^1.0",
+        "roadie-xx/rest-api": "^1.0"
+    }
+}

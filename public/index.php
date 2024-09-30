@@ -13,6 +13,8 @@ use RoadieXX\RestApi;
 (new DotEnv(dirname(__DIR__) . '/.env'))->load();
 
 $database = new Database();
+$database->setPdo();
+
 // var_dump($database->run('SHOW TABLES'));
 
 $segments = explode('/', $_SERVER['REQUEST_URI']);

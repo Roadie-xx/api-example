@@ -52,16 +52,16 @@
         },
         {
             "name": "roadie-xx/rest-api",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roadie-xx/RestApi.git",
-                "reference": "90ae5ab9a691886319784c82f96573c10a21961b"
+                "reference": "48826dab361a6fe623612b6b5fcb7b7b7de35761"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roadie-xx/RestApi/zipball/90ae5ab9a691886319784c82f96573c10a21961b",
-                "reference": "90ae5ab9a691886319784c82f96573c10a21961b",
+                "url": "https://api.github.com/repos/Roadie-xx/RestApi/zipball/48826dab361a6fe623612b6b5fcb7b7b7de35761",
+                "reference": "48826dab361a6fe623612b6b5fcb7b7b7de35761",
                 "shasum": ""
             },
             "require": {
@@ -88,9 +88,9 @@
             "description": "Simple Restfull API Framework.",
             "support": {
                 "issues": "https://github.com/Roadie-xx/RestApi/issues",
-                "source": "https://github.com/Roadie-xx/RestApi/tree/v1.0.0"
+                "source": "https://github.com/Roadie-xx/RestApi/tree/v1.0.1"
             },
-            "time": "2024-09-26T14:36:48+00:00"
+            "time": "2024-09-30T12:29:38+00:00"
         }
     ],
     "packages-dev": [],

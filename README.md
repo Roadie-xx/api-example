@@ -36,4 +36,7 @@ docker compose run app
     composer require roadie-xx/rest-api
 
     composer dump-autoload
+
+    composer update roadie-xx/dotenv
+    composer update roadie-xx/rest-api
 ```
